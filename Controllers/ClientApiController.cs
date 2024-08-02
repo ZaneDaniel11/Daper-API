@@ -27,7 +27,7 @@ namespace Daper.Controllers
         [HttpPost("SaveClient")]
         public async Task<IActionResult> SaveClientAsync(Client client){
             
-            const string query = "Insert into Client (ClientName, Residency) Values ( @ClientName, @Residency ); Select * from Client order by Id desc Limit 1";
+            const string query = "Insert into Client (ClientName, Address) Values ( @ClientName, @Address ); Select * from Client order by Id desc Limit 1";
             
             var result  = await _connection.QueryAsync<Client>(query, client);
 
@@ -37,12 +37,12 @@ namespace Daper.Controllers
         [HttpPut("UpdateClient")]
         public async Task<IActionResult> UpdateClientAsync(int Id, Client client){
             
-            const string query = "Update Client set ClientName = @theClientName, Residency = @theResidency where Id = @Id; Select * from Client where Id = @Id limit 1 ";
+            const string query = "Update Client set ClientName = @theClientName, Address = @theAddress where Id = @Id; Select * from Client where Id = @Id limit 1 ";
             
             var result  = await _connection.QueryAsync<Client>(query, new {
                 Id = Id,
                 theClientName = client.ClientName,
-                theResidency = client.Residency
+                theAddress = client.Address,
             });
 
             return Ok(result);
