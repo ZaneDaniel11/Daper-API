@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Myprojects\\Daper-API\\Daper.csproj": {}
+    "C:\\Users\\FOR CLONE\\Documents\\GitHub\\Daper-API\\Daper.csproj": {}
   },
   "projects": {
-    "D:\\Myprojects\\Daper-API\\Daper.csproj": {
+    "C:\\Users\\FOR CLONE\\Documents\\GitHub\\Daper-API\\Daper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Myprojects\\Daper-API\\Daper.csproj",
+        "projectUniqueName": "C:\\Users\\FOR CLONE\\Documents\\GitHub\\Daper-API\\Daper.csproj",
         "projectName": "Daper",
-        "projectPath": "D:\\Myprojects\\Daper-API\\Daper.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Myprojects\\Daper-API\\obj\\",
+        "projectPath": "C:\\Users\\FOR CLONE\\Documents\\GitHub\\Daper-API\\Daper.csproj",
+        "packagesPath": "C:\\Users\\FOR CLONE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FOR CLONE\\Documents\\GitHub\\Daper-API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FOR CLONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
